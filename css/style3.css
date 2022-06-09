@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-image: url(fundo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+h1{
+    color: mediumspringgreen; 
+    border-top: 20px solid  blue;
+    border-bottom: 20px solid  blue;
+    font-size: 30px ;
+    text-shadow: 0.03em 0.07em darkblue;
+    text-align: center;
+} 
+h2{
+    color: ghostwhite; 
+    font-size: 30px ; 
+    text-align:left;
+    background-color: rgba(0,0,0,0.9);
+}
+h3{
+    font-weight:bold;
+    color: royalblue;
+    font-size: 20px ;
+    
+}
+
+.p{
+    font-weight:bold;
+    font: verdana;
+    color: floralwhite;
+    font-size: 17px ;
+    text-align: justify; 
+
+}
+.pfim{
+    
+    font-weight:bold;
+    font: verdana;
+    color: white;
+    font-size: 18px ;
+    text-align: right;
+    
+}
+.pfim:hover{
+    font-weight:bold;
+    font: verdana;
+    color: white;
+    font-size: 20px ;
+    text-align: right;
+}
+.texto{
+    border: 2px solid black;
+    font-weight:bold;
+    color:aquamarine;
+    font-size: 15px ;
+    text-align: justify;
+    background-color: rgba(0,0,0,0.8);
+}
+button{
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    font-size: 24px;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.esquerda{
+    border-collapse: collapse;
+    float: right;
+    text-align: right !important;
+    color: aliceblue;
+    font-size: 18px ;
+}
+.esquerda:hover{
+    border-collapse: collapse;
+    float: right;
+    text-align: right !important;
+    font-size: 20px;
+}
+
+

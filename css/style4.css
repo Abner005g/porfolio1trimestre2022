@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-image: url(fundositequatro.jpg);
+    background-blend-mode:darken;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+h1{
+    color: mediumspringgreen; 
+    border-top: 20px solid  darkblue;
+    border-bottom: 20px solid  darkblue;
+    font-size: 40px ;
+    text-align: center;
+} 
+h2{
+    color: skyblue; 
+    font-size: 30px ; 
+    text-align:left;
+}
+h3{
+    font-weight:bold;
+    font: verdana;
+    color: deepskyblue;
+    font-size: 20px ;
+    
+}
+h5{
+    font-weight:bold;
+    font: verdana;
+    color: bisque;
+    font-size: 10px ;  
+}
+
+.p{
+    font-weight:bold;
+    font: verdana;
+    color: azure;
+    font-size: 23px ;
+    text-align: justify;  
+}
+.pfim{
+    
+    font-weight:bold;
+    font: verdana;
+    color: black;
+    font-size: 18px ;
+    text-align: right;
+    
+}
+.pfim{
+    
+    font-weight:bold;
+    font: verdana;
+    color: white;
+    font-size: 18px ;
+    
+}
+.texto{
+    border: 2px solid black;
+    font: verdana;
+    color: darkgray;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 23px ;
+    text-align: justify;
+}
+button{
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    font-size: 24px;
+}
+.esquerda{
+    border-collapse: collapse;
+    float: right;
+    text-align: right !important;
+   
+}
+.ex{
+    text-align: center;
+    font-weight:bold;
+    font: verdana;
+    color: azure;
+    font-size: 27px ;
+    
+}
+.img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
