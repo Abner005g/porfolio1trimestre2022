@@ -3,6 +3,7 @@ body {
     background-image: url(fundositecinco.gif);
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: black;
 }
 
 h1{
