@@ -2,49 +2,45 @@
 <html lang="pt-BR">
 <head>
  <meta charset="utf-8">   
- <title>Portfólio- Medidas de posição</title>   
+ <title>Portfólio- REGRA DE CHIÓ</title>   
    <link rel="icon" href="imagens/logositecinco.gif" type="imagem/gif">
    </head>
     
 <body>   
     <link type="text/css" rel="stylesheet" href="css/style5.css" >
     
-    <h1> Medidas de posição </h1>
+    <h1> REGRA DE CHIÓ  </h1>
     
-    <h2>definição:</h2>
-    <p class="texto"> As medidas de posição ou de centralização são valores que representam uma coleção de dados. 
-Vamos estudar a média, moda e mediana. </p>
+    <h2>definição:
+    <p class="texto"> Essa regra nos permite calcular o determinante de uma matriz de ordem 𝑛 usando uma matriz de
+      ordem (𝑛 − 1). Ou seja, é uma regra prática que transforma uma matriz de ordem 4, por exemplo, numa
+      matriz de ordem 3 que possui o mesmo determinante. Da mesma forma, podemos continuar o processo e
+      transformar essa matriz de ordem 3 numa outra de ordem 2 e, no final, calcular seu determinante. a Única condição necessária é que A<sub>11</sub> seja igual a 1<br>
+    Caso seja diferente de 1 podemos usar as propriedades de troca de filas ou o teorema de Jacob para deixar A<sub>11</sub> = 1 </p>
+  </h2>
+    <p class="texto"><b> Passo a passo da Regra de Chió</b><br>
+      1º) Desde que M tenha 𝑎11 = 1, suprimimos a 1ª linha e 1ª coluna.<br>
+      2º) De cada elemento da “nova” matriz, subtraímos o produto dos elementos que estão nas<br>
+      extremidades da sua linha e coluna suprimidas.<br>
+      3º) Com as diferenças obtidas, construímos uma matriz de ordem (n – 1) cujo determinante é igual a M.<br>
+    <br>
+    <img id="tabela" src="imagens/chio.png" alt="tabela" class="center"></p>
+    <h2> Exemplo desenvolvido :</h2>
+
+    <img alt="Chió_exemplo" src="imagens/chio_exemplo.jpg" class="center">
+
+    <br><br><br>
+    <h2>Video:</h2>
     
-    <h2 class="p">Média Aritmética Simples:</h2>
+    <iframe width="360" height="305" src="https://www.youtube.com/embed/hKf9KktbvDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="center"></iframe>
     
-        <p class="texto">A média aritmética simples é o quociente entre a soma de todos os números do conjunto e a 
-        quantidade de números que há nesse conjunto. </p>
-          <p class="texto">Dados os n valores 𝑥1,𝑥2, 𝑥3, … , 𝑥𝑛 de uma variável, a média aritmética simples é o número obtido da seguinte forma:</p>
-       <img class="center" src="imagens/img1.png">
-      <br>
-     <img class="center" src="imagens/exemplo2.png">
-    
-    <h2 class="p">Média Aritmética Ponderada:</h2>
-    
-         <p class="texto">Essa média é usada quando há valores que aparecem mais vezes no conjunto dado ou valores que possuem pesos diferentes. Assim, cada valor é multiplicado por seu peso ou frequência, depois são todos somados e, em seguida, divididos pela soma desses pesos ou frequências.
-        </p>
-     <img class="center" src="imagens/exemplo3.png">
-    
-    <h2 class="p"> Mediana: </h2>
-    
-        <p class="texto"> Notação: M<sub>d</sub> </p>
-    
-             <p class="texto"> Colocados os dados em ordem crescente, a mediana é o valor que divide a amostra, ou população, em duas partes iguais </p>
-                <img class="center" src="imagens/md.png">
-            <p class="texto"> em numeros ímpares a mediana será o elemento central dos dados em ordem crescente ou decrescente. A posição da mediana é dada por  n  + 1 / 2 ,<br> já em numeros pares é somente N /2.</p>
-        <img class="center" src="imagens/exemplo4.png">
-    
-    <h2 class="p">Moda</h2>
-      <p class="texto"> Notação: Mo </p>
-        <p class="texto"> Denominamos moda o valor que ocorre com maior frequência em uma série de valores. Desse modo, o salário modal dos empregados de uma indústria é o salário mais comum, ou seja, o salário recebido pelo maior número de empregados. Utilizamos a moda quando desejamos obter uma medida rápida e aproximada de posição, ou quando a medida de posição deve ser o valor mais típico da distribuição. </p>
-    <br><br>
-    <p class="p">Bom, Na minha opinião, de todos os itens listados no portfólio, Esse é o mais simples e o mais facil, calcular a média nada mais é do que somar tudo e dividir pelo numero de itens, por exemplo tenho 3 numeros, somo todos esses numeros e divido por 3,  não sei mais oque comentar sobre, então é isso, Logo abaixo há um botão para voltar ao iten anterior, e o outro para ir para página inicial, onde há o sumário, a introdução e a auto avaliação, Obrigado pela atenção, Adeus!.</p>
-    
+<p class="texto">Você deve estar pensando, "Porque um conteúdo facil como a regra de Chió foi considerada pelo aluno Dificil?", Simples a explicação, 
+  tive uma dificuldade imensa em montar a segunda Matriz para calcular, e ainda tive dificuldades na troca de filas e no teorema de Jacob,
+   e por isso foi complicado, e ainda após tranformar por exemplo uma matriz 4x4 em 3x3, ter que fazer o determinante, 
+   que também sempre me complicou, acho que em ambos os itens(determinante e Chió) são apenas casos de decorar a questão de sinais e soma e subtração,
+    pois são muitos calculos pequenos que confundem um pouco.
+</p>
+
     <div>  
       <button ><a href="3.html" class="pfim">Voltar</a> </button>
         <button class="esquerda"> <a href="index.html" class="pfim"> página inicial </a> </button>    
