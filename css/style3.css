@@ -2,7 +2,8 @@ body {
     margin: 0;
     background-image: url(fundo2.jpg);
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
 h1{
